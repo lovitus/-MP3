@@ -5,7 +5,7 @@ sys.setdefaultencoding('utf8')
 import os
 
 base=r'/mnt/winD/BaiduYunDownload/pinyintest'
-tag=['.mp3','.MP3','.FLAC','flac','.APE']
+tag=['.mp3','.MP3']
 
    
 
