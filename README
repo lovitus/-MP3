@@ -1,8 +1,9 @@
 首先,使用pip或easy_install安装mutagen
 进入你音乐文件夹首层,执行find . -iname "*.mp3" -execdir mid3iconv -e GBK {} \;
-此时idtag都转换成了UTF-8
+此时idtag都转换成了GBK编码
 
 执行前需要安装 pypinyin eyed3 比如 pip install pypinyin eyed3
 编辑topinyin.py里面的base为音乐文件的起始目录,最后一行设置你要修改哪些参数,默认是'title','artist','album','album_artist'
 如果不需要转换某些的话,删除即可
 运行: python topinyin.py
+done!!
